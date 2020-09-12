@@ -10,7 +10,7 @@ public class GoToViewAllWorkTest {
 	@Test
 	public void goToViewAWorktTest() throws InterruptedException {
 		
-		//Adding comments
+		//Adding commentss
 		Page.initConfiguration();
 		HomePage home = new HomePage();
 		//home.goToOrbitMediaStudio().goToStartAProject();
