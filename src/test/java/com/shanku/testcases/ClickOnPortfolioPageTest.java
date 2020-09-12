@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import com.shanku.base.Page;
 import com.shanku.pages.actions.PortfolioPage;
 
-public class ClickonPortfolioPageTest {
+public class ClickOnPortfolioPageTest {
 	
 	@Test
 	public void clickOnPortfolioPageTest() {

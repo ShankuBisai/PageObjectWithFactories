@@ -5,18 +5,17 @@
 	<listeners>
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
-		<listener class-name="com.shanku.listeners.CustomListeners" />
 	</listeners>
 
-	<test thread-count="5" name="Login Test">
+	<test thread-count="5" name="Go To View All Work Test">
 		<classes>
-			<class name="com.shanku.testcases.LoginTest" />
+			<class name="com.shanku.testcases.goToViewAWorktTest" />
 		</classes>
 	</test> <!-- Test -->
 	
-	<test thread-count="5" name="Create Account Test">
+	<test thread-count="5" name="Click On Portfolio Page Test">
 		<classes>
-			<class name="com.shanku.testcases.CreateAccountTest" />
+			<class name="com.shanku.testcases.clickOnPortfolioPageTest" />
 		</classes>
 	</test> <!-- Test -->
 
